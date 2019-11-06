@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif; }
+
+.bg-image1 {
+  height: 100vh;
+  opacity: 0.6; }
+  .bg-image1 .caption {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background: black;
+    color: white;
+    letter-spacing: 7px; }
+    .bg-image1 .caption h1 {
+      margin: 0;
+      padding: 18px 50px; }
+
+.bg-image2 {
+  height: 100vh;
+  overflow: hidden; }
+
+.bg-image3 {
+  height: 100vh;
+  overflow: hidden; }
+
+@keyframes slide {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -400px 0; } }
+.content1 {
+  text-align: center;
+  padding: 40px 30px;
+  letter-spacing: 3px;
+  opacity: 0.6; }
+  .content1 h2 {
+    font-size: 40px; }
+  .content1 p {
+    font-size: 24px;
+    color: grey; }
+
+.content2 {
+  letter-spacing: 3px;
+  font-size: 30px;
+  padding: 50px 80px;
+  background: black;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
